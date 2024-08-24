@@ -253,3 +253,4 @@ except requests.RequestException as e:
 st.write('---')
 st.write('Data source: [open-meteo.com](http://open-meteo.com)')
 st.write('City data source: [simplemaps.com](https://simplemaps.com/data/world-cities)')
+st.write('App created by [Charles Churu]( https://www.linkedin.com/in/charles-churu-3a1a9b1a8/)')
