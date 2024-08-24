@@ -4,6 +4,7 @@ Your README is already well-structured, but I can help polish it to ensure clari
 # Streamlit Weather App
 
 ## Overview
+![App Preview](app.png)  <!-- Add this line to include the image preview -->
 
 This Streamlit-based web application provides real-time and forecasted weather data for over 40,000 cities worldwide. It offers historical weather data, city comparisons, and engaging visualizations to enhance the user experience. The app is designed to be interactive and user-friendly, featuring customizable forecasts, historical data views, and weather comparisons.
 
