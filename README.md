@@ -26,6 +26,7 @@ To run this application locally, follow these steps:
    git clone https://github.com/yourusername/streamlit-weather-app.git
    cd streamlit-weather-app
 Install required packages: Create a virtual environment and install the dependencies using pip:
+
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
