@@ -25,3 +25,59 @@ To run this application locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/streamlit-weather-app.git
    cd streamlit-weather-app
+Install required packages: Create a virtual environment and install the dependencies using pip:
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+pip install -r requirements.txt
+
+Download data files: Ensure you have the worldcities.csv file in the same directory as your script. You can download it from SimpleMaps.
+
+Run the app:
+streamlit run app.py
+Usage
+Select Location:
+
+Choose a country from the dropdown menu.
+Select a city from the list of cities in the chosen country.
+Current Weather:
+
+View the current temperature, wind speed, and wind direction.
+Weekly Forecast:
+
+See temperature and precipitation forecasts for the next week.
+View the city's location on an interactive map.
+Historical Weather Data:
+
+Select a start and end date to view historical weather data.
+Visualize data using time series plots.
+Compare Weather Between Cities:
+
+Select multiple cities to compare their current weather conditions.
+Weather Advice:
+
+Get recommendations on what to wear or do based on the current temperature and wind speed.
+Temperature Animation:
+
+Watch an animation of temperature changes over time.
+Local Time and Sun Times:
+
+View the local time, sunrise, and sunset times for the selected city.
+Dependencies
+streamlit
+pandas
+requests
+plotly
+folium
+streamlit-folium
+pytz
+timezonefinder
+Contributing
+Contributions are welcome! To contribute, please fork the repository and submit a pull request with your changes. Ensure that your changes are tested and documented.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For any questions or feedback, please reach out to charleschuru94@gmail.com.
+
+Enjoy exploring the weather with our app!
