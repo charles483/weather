@@ -96,9 +96,3 @@ For any questions or feedback, please reach out to [charleschuru94@gmail.com](ma
 
 Enjoy exploring the weather with our app!
 ```
-
-### Explanation:
-- **Image Preview**: The `![App Preview](app.png)` line adds an image to your README. Ensure `app.png` is in the same directory as your README file for it to display correctly.
-- **Placement**: The image is placed right after the overview section to give users an immediate visual impression of the app.
-
-Make sure the image file is appropriately sized so it displays well in the README. Adjust the placement if needed based on how you want users to experience the content.
