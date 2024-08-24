@@ -25,60 +25,80 @@ To run this application locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/streamlit-weather-app.git
    cd streamlit-weather-app
-Install required packages: Create a virtual environment and install the dependencies using pip:
 
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-pip install -r requirements.txt
+2. **Install required packages:**
+   Create a virtual environment and install the dependencies using pip:
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   pip install -r requirements.txt
+   ```
 
-Download data files: Ensure you have the worldcities.csv file in the same directory as your script. You can download it from SimpleMaps.
+3. **Download data files:**
+   Ensure you have the `worldcities.csv` file in the same directory as your script. You can download it from [SimpleMaps](https://simplemaps.com/data/world-cities).
 
-Run the app:
-streamlit run app.py
-Usage
-Select Location:
+4. **Run the app:**
+   ```bash
+   streamlit run app.py
+   ```
 
-Choose a country from the dropdown menu.
-Select a city from the list of cities in the chosen country.
-Current Weather:
+## Usage
 
-View the current temperature, wind speed, and wind direction.
-Weekly Forecast:
+1. **Select Location:**
+   - Choose a country from the dropdown menu.
+   - Select a city from the list of cities in the chosen country.
 
-See temperature and precipitation forecasts for the next week.
-View the city's location on an interactive map.
-Historical Weather Data:
+2. **Current Weather:**
+   - View the current temperature, wind speed, and wind direction.
 
-Select a start and end date to view historical weather data.
-Visualize data using time series plots.
-Compare Weather Between Cities:
+3. **Weekly Forecast:**
+   - See temperature and precipitation forecasts for the next week.
+   - View the city's location on an interactive map.
 
-Select multiple cities to compare their current weather conditions.
-Weather Advice:
+4. **Historical Weather Data:**
+   - Select a start and end date to view historical weather data.
+   - Visualize data using time series plots.
 
-Get recommendations on what to wear or do based on the current temperature and wind speed.
-Temperature Animation:
+5. **Compare Weather Between Cities:**
+   - Select multiple cities to compare their current weather conditions.
 
-Watch an animation of temperature changes over time.
-Local Time and Sun Times:
+6. **Weather Advice:**
+   - Get recommendations on what to wear or do based on the current temperature and wind speed.
 
-View the local time, sunrise, and sunset times for the selected city.
-Dependencies
-streamlit
-pandas
-requests
-plotly
-folium
-streamlit-folium
-pytz
-timezonefinder
-Contributing
+7. **Temperature Animation:**
+   - Watch an animation of temperature changes over time.
+
+8. **Local Time and Sun Times:**
+   - View the local time, sunrise, and sunset times for the selected city.
+
+## Dependencies
+
+- `streamlit`
+- `pandas`
+- `requests`
+- `plotly`
+- `folium`
+- `streamlit-folium`
+- `pytz`
+- `timezonefinder`
+
+## Contributing
+
 Contributions are welcome! To contribute, please fork the repository and submit a pull request with your changes. Ensure that your changes are tested and documented.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
 
-Contact
-For any questions or feedback, please reach out to charleschuru94@gmail.com.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please reach out to [charleschuru94@gmail.com](mailto:charleschuru94@gmail.com).
 
 Enjoy exploring the weather with our app!
+```
+
+### Explanation:
+- **Image Preview**: The `![App Preview](app.png)` line adds an image to your README. Ensure `app.png` is in the same directory as your README file for it to display correctly.
+- **Placement**: The image is placed right after the overview section to give users an immediate visual impression of the app.
+
+Make sure the image file is appropriately sized so it displays well in the README. Adjust the placement if needed based on how you want users to experience the content.
