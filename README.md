@@ -64,7 +64,6 @@ To run this application locally, follow these steps:
 
 6. **Weather Advice:**
    - Get recommendations on what to wear or do based on the current temperature and wind speed.
-
 7. **Temperature Animation:**
    - Watch an animation of temperature changes over time.
 
